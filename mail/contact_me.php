@@ -13,8 +13,8 @@ $email_address = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
 
-$to = 'groupcashorg+webform@gmail.com';
-$email_subject = "Website Contact Form:  $name";
+$to = 'contact@groupcash.org';
+$email_subject = [groupcash.org] Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n" . "Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@groupcash.org\n";
 $headers .= "Reply-To: $email_address";
